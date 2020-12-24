@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: nettyrpc
+server:
+  port: 7002
+
+rpc:
+  provider: rpc_producer
+  heartbeat: 600
+nacos:
+  discovery:
+    server-addr: 127.0.0.1:8848
+    namespace: 35375ce2-f421-431f-bd2e-89677440dc9f
+    register:
+      group-name: netty_rpc_consumer
+logging:
+  config: classpath:logback-spring.xml
