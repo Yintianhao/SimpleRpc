@@ -1,4 +1,4 @@
-package cn.izzer.producer;
+package cn.izzer.simplerpc;
 
 import com.alibaba.nacos.api.annotation.NacosInjected;
 import com.alibaba.nacos.api.naming.NamingService;

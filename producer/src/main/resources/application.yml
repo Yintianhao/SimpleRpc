@@ -2,14 +2,14 @@ spring:
   application:
     name: rpc_producer
 server:
-  port: 7001
+  port: 7003
 
 rpc:
-  heartbeat: 600
+  heartbeat: 11
 
 app:
   ip: 127.0.0.1
-  port: 8001
+  port: 8003
 
 nacos:
   discovery:

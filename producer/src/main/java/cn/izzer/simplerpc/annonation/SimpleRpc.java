@@ -1,4 +1,4 @@
-package cn.izzer.consumer.annonation;
+package cn.izzer.simplerpc.annonation;
 
 import org.springframework.stereotype.Component;
 
@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 
 /**
  * @author yintianhao
- * @createTime 2020/12/24 22:52
+ * @createTime 2020/12/27 12:59
  * @description RPC 注解
  */
 @Target(ElementType.TYPE)
